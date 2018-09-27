@@ -1,10 +1,10 @@
 /**
  * WINDOW POPUP
- * Version: 1.0.0
- * URL: https://github.com/yourwebcite/window-popup
+ * Version: 1.0.1
+ * URL: https://github.com/urwebs/jquery.window.popup
  * Description: Window popup for remote url
- * Author: Jey (https://yourwebcite.com)
- * Copyright: Copyright 2018 Jey
+ * Author: Jey (https://urwebs.net)
+ * Copyright: Copyright 2018 Urwebs
  * License: MIT License
  */
 (function($){
@@ -12,7 +12,7 @@
     var pluginName = 'windowpopup';
 
     var defaults = {
-        href        : "https://yourwebcite.com/",
+        href        : "https://urwebs.net/",
         title       : "Title",
         width       : 640,
         height      : 640,

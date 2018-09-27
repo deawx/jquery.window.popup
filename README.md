@@ -9,14 +9,14 @@ Simple jQuery plugin for window popup.
 ## INSTALLATION   
 ~~~
 <script src="jquery.js"></script>
-<script src="window-popup.js"></script>
+<script src="jquery.window.popup.js"></script>
 ~~~
 
 
 ## OPTIONS   
 | option      | type    | default                   | notes                                     |
 |-------------|---------|---------------------------|-------------------------------------------|
-| href        | string  | "https://yourwebcite.com" | url |
+| href        | string  | "https://urwebs.net"      | url |
 | title       | string  | "WINDOW POPUP"            | 제목 |
 | width       | number  | 640                       | 열리는 창의 가로 크기 |
 | height      | number  | 640                       | 열리는 창의 세로 크기 |
@@ -47,7 +47,7 @@ $('.window-popup').windowpopup();
 ### EXAMPLE WITH OPTIONS   
 ~~~
 $('.window-popup').windowpopup({
-    href        : "https://yourwebcite.com",
+    href        : "https://urwebs.net",
     title       : "Title",
     width       : 640,
     height      : 640,
